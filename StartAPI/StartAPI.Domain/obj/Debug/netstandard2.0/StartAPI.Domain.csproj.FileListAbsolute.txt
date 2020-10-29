@@ -1,0 +1,8 @@
+C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\bin\Debug\netstandard2.0\StartAPI.Domain.deps.json
+C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\bin\Debug\netstandard2.0\StartAPI.Domain.dll
+C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.AssemblyInfo.cs
+C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\bin\Debug\netstandard2.0\StartAPI.Domain.pdb
+C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.dll
+C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.pdb

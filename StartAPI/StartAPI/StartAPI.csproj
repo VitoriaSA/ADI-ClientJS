@@ -5,23 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20201029035703_initial.cs" />
-    <Compile Remove="Migrations\20201029035703_initial.Designer.cs" />
-    <Compile Remove="Migrations\20201029042250_initial.cs" />
-    <Compile Remove="Migrations\20201029042250_initial.Designer.cs" />
-    <Compile Remove="Migrations\20201029135456_initial.cs" />
-    <Compile Remove="Migrations\20201029135456_initial.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StartAPI.Domain\StartAPI.Domain.csproj" />
+    <ProjectReference Include="..\StartAPI.Repository\StartAPI.Repository.csproj" />
   </ItemGroup>
 
 
