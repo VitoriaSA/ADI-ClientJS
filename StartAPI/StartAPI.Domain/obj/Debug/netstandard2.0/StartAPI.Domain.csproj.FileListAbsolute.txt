@@ -6,3 +6,4 @@ C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\bin\Debug\netst
 C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.dll
 C:\Users\Vitória\source\repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.pdb
+C:\Users\Vitória\Source\Repos\StartAPI\StartAPI\StartAPI.Domain\obj\Debug\netstandard2.0\StartAPI.Domain.csprojAssemblyReference.cache
