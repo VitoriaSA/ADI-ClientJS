@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StartAPI.Repository;
 
 namespace StartAPI.Repository.Migrations
 {
     [DbContext(typeof(DepartamentContext))]
-    partial class DepartamentContextModelSnapshot : ModelSnapshot
+    [Migration("20201104174759_column-active")]
+    partial class columnactive
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
