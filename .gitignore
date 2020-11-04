@@ -1,3 +1,4 @@
+# Gitgnore StartAPI
 
 # Created by https://www.toptal.com/developers/gitignore/api/aspnetcore
 # Edit at https://www.toptal.com/developers/gitignore?templates=aspnetcore
@@ -245,7 +246,6 @@ FakesAssemblies/
 
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
-# Start API
 **/*.DesktopClient/GeneratedArtifacts
 **/*.DesktopClient/ModelManifest.xml
 **/*.Server/GeneratedArtifacts
