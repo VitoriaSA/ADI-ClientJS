@@ -14,7 +14,7 @@ namespace StartAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("AllowSpecificOrigin")]
+    [EnableCors("AllowOrigin")]
     public class DepartmentsController : ControllerBase
     {
         private readonly DepartamentContext _context;
