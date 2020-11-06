@@ -92,7 +92,7 @@ namespace StartAPI.Controllers
                     _context.Update(department);
                    await _context.SaveChangesAsync();
 
-                    return Ok("Departamento alterado com sucesso!");
+                    return CreatedAtAction("GetDepartment", new { id = department.Id }, department);
                 }
              
                 return Ok("Nenhum departamento encontrado.");
@@ -120,8 +120,7 @@ namespace StartAPI.Controllers
                 _context.Departments.Add(department);
                 await _context.SaveChangesAsync();
 
-                //return CreatedAtAction("GetDepartment", new { id = department.Id }, department);
-                return Ok("Departamento adicionado com sucesso!");
+                return CreatedAtAction("GetDepartment", new { id = department.Id }, department);
 
             }
             catch (ArgumentException e)
