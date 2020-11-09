@@ -17,7 +17,7 @@ using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using StartAPI.Repository;
-
+using Microsoft.AspNetCore.Http;
 
 namespace StartAPI
 {
@@ -111,6 +111,12 @@ namespace StartAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseStaticFiles();
+
+            app.Run(async(context)=> {
+                await context.Response.WriteAsync("Could Not Find Anything");
             });
         }
     }
